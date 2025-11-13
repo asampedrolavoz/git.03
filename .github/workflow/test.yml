@@ -6,3 +6,11 @@ jobs:
     steps: 
       name: logdate asampedro
       run: date
+  node-version:
+    runs-on: ubuntu-latest
+    steps:
+      name: node node-version
+      run : node --version
+
+
+
