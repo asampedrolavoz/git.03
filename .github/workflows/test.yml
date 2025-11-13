@@ -3,14 +3,14 @@ on: push
 jobs:
   log-date:
     runs-on: ubuntu-latest
-    steps: 
-      name: logdate asampedro
-      run: date
+    steps:
+      - name: logdate asampedro
+        run: date
   node-version:
     runs-on: ubuntu-latest
     steps:
-      name: node node-version
-      run : node --version
+      - name: node node-version
+        run : node --version
 
 
 
